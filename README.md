@@ -19,6 +19,14 @@ Prerequisites
 - Node.js (v16+ recommended)
 - MongoDB (local or cloud instance)
 
+Add .env file in backend with required field
+```bash
+PORT = 
+MONGO_URI = 
+JWT_USER_PASSWORD = 
+NODE_ENV =
+```
+
 1. Clone the repository
 ```bash
 git clone <repo-url>
@@ -29,8 +37,7 @@ cd Expense_Tracker
 ```bash
 cd backend
 npm install
-
-npm start
+npm run dev
 ```
 
 3. Frontend Setup
